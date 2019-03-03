@@ -1,3 +1,5 @@
+Use server.js to run the program
+Extract node_modules.zip befor running server.js
 The admin login can add/remove students and add/remove courses this cannot be done via the student login
 The student can join/exit the courses 
 A course can only be exited if it was joined and the current no of students in it are >5
