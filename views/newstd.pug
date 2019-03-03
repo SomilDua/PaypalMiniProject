@@ -1,0 +1,14 @@
+html
+    body(bgcolor="lightblue")    
+        h1 New Student portal
+        p #{error}
+        form(action="/newstd" method="post")
+            label registration no
+            input(type="text" name="regno")
+            br
+            label password
+            input(type="password" name="pass")
+            input(type="submit")
+        br
+        a(href="/admin")
+            p admin home

@@ -1,0 +1,12 @@
+html
+    body(bgcolor="lightblue") 
+        h1 Exit Course portal
+        h2 Registered Courses
+        p #{joined}
+        form(action="/exitcou" method="post")
+            label Course code
+            input(type="text" name="course")
+            input(type="submit")
+        br
+        a(href="/student")
+            p student home

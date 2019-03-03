@@ -1,0 +1,13 @@
+html
+    body(bgcolor="lightblue")    
+        h1 New Course portal
+        form(action="/newcou" method="post")
+            label Course code
+            input(type="text" name="courses")
+            br
+            label time slot
+            input(type="text" name="times")
+            input(type="submit")
+        br
+        a(href="/admin")
+            p admin home

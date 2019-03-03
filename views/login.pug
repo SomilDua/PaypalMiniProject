@@ -1,0 +1,13 @@
+html
+    body(bgcolor="lightblue") 
+        h1 FFCS Login
+        p #{error}
+        form(action="/login" method="post")
+            label Name
+            input(type="text" name="Name")
+            br
+            label password
+            input(type="password" name="Password")
+            input(type="submit")
+        a(href="/help")
+            p Help page

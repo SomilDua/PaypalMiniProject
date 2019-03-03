@@ -1,0 +1,31 @@
+html
+    body(bgcolor="lightblue")
+        h1 Welcome Admin to FFCS portal
+        table(border='1')
+            tr
+                td
+                    h2 All Available courses
+                    h3
+                        p #{courses}
+                td
+                    h2 No of student registered
+                    h3
+                        p #{no}
+        table()
+            tr
+                td
+                    a(href="/newstd")
+                        p Add student
+                td
+                    a(href="/delstd")
+                        p Delete student
+                td
+                    a(href="/newcou")
+                        p Add course
+                td
+                    a(href="/delcou")
+                        p Delete course
+                td    
+                    a(href="/login")
+                        p logout
+        p #Course should not be removed once any student joins it
